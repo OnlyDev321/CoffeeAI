@@ -274,6 +274,44 @@ Logged events include:
 
 ---
 
+## 🧪 Test Scenarios
+
+| Voice Command       | Expected Result                |
+| ------------------- | ------------------------------ |
+| 포장하기            | Take-out selected              |
+| 아메리카노 두 잔    | Coffee and quantity recognized |
+| 카드로 결제할게요   | Card payment selected          |
+| Recognition failure | Retry process activated        |
+
+---
+
+## 📊 Experimental Results
+
+The system was evaluated using:
+
+- 100 Korean speakers
+- 500 voice command samples
+
+### Recognition Accuracy
+
+| Task              | Accuracy |
+| ----------------- | -------- |
+| Menu Selection    | 95.3%    |
+| Coffee Ordering   | 89.7%    |
+| Payment Selection | 85.6%    |
+| Average           | 90.2%    |
+
+### Response Time
+
+| System            | Response Time |
+| ----------------- | ------------- |
+| CoffeeMachine     | 6.5 sec       |
+| Text-Based System | 3.2 sec       |
+
+Although slightly slower than traditional text-based systems, CoffeeMachine significantly improves accessibility for users with disabilities.
+
+---
+
 ## 🔮 Future Improvements
 
 - Text-to-Speech (TTS) voice responses
@@ -290,7 +328,12 @@ Logged events include:
 
 Developed by:
 
-OnlyDev
+- 김우석
+- 트란트룽하우
+- 신지호
+- 구민준
+- 조민경
+- 고영준
 
 AI Voice Coffee Ordering Project
 
